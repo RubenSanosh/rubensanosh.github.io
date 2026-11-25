@@ -277,6 +277,9 @@ section h2{
   flex-wrap: wrap;
   gap: 20px;
 }
+.cert-card + .cert-card{
+  margin-top: 16px;
+}
 .cert-main h3{ font-size: 17px; color: #fff; margin-bottom: 4px; }
 .cert-issuer{ color: var(--text-dim); font-size: 14px; }
 .cert-meta{
