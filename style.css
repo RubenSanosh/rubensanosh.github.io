@@ -373,14 +373,24 @@ a.proj-link:hover{ color: var(--red); border-color: var(--red); }
   background: var(--surface);
   border-left: 2px solid var(--red-dim);
   padding: 36px;
-  display:flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   gap: 24px;
 }
-.contact-box p{ max-width: 440px; color: var(--text-dim); font-size: 15px; }
-.contact-links{ display:flex; flex-direction: column; gap: 10px; }
+.contact-box p{
+  max-width: 560px;
+  color: var(--text-dim);
+  font-size: 15px;
+  margin: 0 auto;
+}
+.contact-links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px 24px;
+}
 .contact-links a{
   font-family: 'JetBrains Mono', monospace;
   font-size: 14px;
